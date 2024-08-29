@@ -11,8 +11,8 @@ def string_info(string):
     lens = len(string)
     stringUp = string.upper()
     stringLow = string.lower()
-    print(f"{lens},{stringUp},{stringLow}")
     count_calls()
+    return lens,stringUp,stringLow
 
 
 def is_contains(string, list_to_search):
